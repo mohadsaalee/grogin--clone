@@ -879,7 +879,7 @@ left: 245px; */
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .strawb-top .wachlist{
   
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   
   gap: gro65px;
  
