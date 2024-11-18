@@ -1763,12 +1763,12 @@
 }
 
 /* ul-3 */
+/* lemon */
 
 #spotlight .spotlight-main .spotlight-right .card .ul-3{
   display: flex;
   border: 1px solid #E5E7EB;
 }
-
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon{
   width: 202px;
   height: 353px;
@@ -1808,12 +1808,12 @@
   margin-top: 3px;
 
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .eggplant-top .wachlist{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon-top .wachlist{
   display: flex;
   align-items: center;
   gap: 108px;
   position: absolute;
-  top: 1018px;
+  top: 1368px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon-top .wachlist .percentage{
   background-color: #DC2626;
@@ -1880,7 +1880,475 @@
   font-weight: 700;
   font-size: 11px;
 }
+/* cauli */
 
+#spotlight .spotlight-main .spotlight-right .card .ul-3{
+  display: flex;
+  border: 1px solid #E5E7EB;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli{
+  width: 202px;
+  height: 353px;
+  padding: 20px;
+  border-left: 1px solid #E5E7EB;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli .change{
+  width: 24px;
+  height: 14px;
+  background-color: #0000001A;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-left: 144px;
+  position: absolute;
+  top: 798px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli .change .yellow{
+  width: 6px;
+  height: 6px;
+  background-color: #facc15;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli .change .white{
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-top .cauli-img{
+  margin-left: 15px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-top .cauli-img img{
+  position:relative;
+  margin-top: 3px;
 
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-top .wachlist{
+  display: flex;
+  align-items: center;
+  gap: 108px;
+  position: absolute;
+  top: 1368px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-top .wachlist .percentage{
+  background-color: #DC2626;
+  border-radius: 40px;
+  height: 24px;
+  width: 38.3px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-top .wachlist .percentage small{
+  color: #fef2f2;
+  font-weight: 800;
+  font-size: 10px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom {
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 4px;
+  margin-top: 18px; 
+  width: 171px;
+  height: 33px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom h5{
+ font-weight: 500;
+ font-size: 13px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .star{
+  margin-bottom: 3px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .star img{
+  width: 66px;
+  height: 11px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .star span{
+  font-weight: 400;
+  font-size: 12px;
+  color: #6b7280;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .doller{
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .doller h5{
+  font-weight: 700;
+  font-size: 22px;
+  color: #DC2626;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .doller span{
+  font-weight: 500;
+  font-size: 16px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .cart{
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .cart span{
+  color: #16a34a;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+/* broccoli */
+
+#spotlight .spotlight-main .spotlight-right .card .ul-3{
+  display: flex;
+  border: 1px solid #E5E7EB;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli{
+  width: 202px;
+  height: 353px;
+  padding: 20px;
+  border-left: 1px solid #E5E7EB;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli .change{
+  width: 24px;
+  height: 14px;
+  background-color: #0000001A;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-left: 144px;
+  position: absolute;
+  top: 798px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli .change .yellow{
+  width: 6px;
+  height: 6px;
+  background-color: #facc15;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli .change .white{
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-top .broccoli-img{
+  margin-left: 15px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-top .broccoli-img img{
+  position:relative;
+  margin-top: 3px;
+
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-top .wachlist{
+  display: flex;
+  align-items: center;
+  gap: 108px;
+  position: absolute;
+  top: 1368px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-top .wachlist .percentage{
+  background-color: #DC2626;
+  border-radius: 40px;
+  height: 24px;
+  width: 38.3px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-top .wachlist .percentage small{
+  color: #fef2f2;
+  font-weight: 800;
+  font-size: 10px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom {
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 4px;
+  margin-top: 18px; 
+  width: 171px;
+  height: 33px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom h5{
+ font-weight: 500;
+ font-size: 13px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .star{
+  margin-bottom: 3px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .star img{
+  width: 66px;
+  height: 11px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .star span{
+  font-weight: 400;
+  font-size: 12px;
+  color: #6b7280;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .doller{
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .doller h5{
+  font-weight: 700;
+  font-size: 22px;
+  color: #DC2626;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .doller span{
+  font-weight: 500;
+  font-size: 16px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .cart{
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .cart span{
+  color: #16a34a;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+/* black */
+#spotlight .spotlight-main .spotlight-right .card .ul-3{
+  display: flex;
+  border: 1px solid #E5E7EB;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black{
+  width: 202px;
+  height: 353px;
+  padding: 20px;
+  border-left: 1px solid #E5E7EB;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black .change{
+  width: 24px;
+  height: 14px;
+  background-color: #0000001A;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-left: 144px;
+  position: absolute;
+  top: 798px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black .change .yellow{
+  width: 6px;
+  height: 6px;
+  background-color: #facc15;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black .change .white{
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-top .black-img{
+  margin-left: 15px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-top .black-img img{
+  position:relative;
+  margin-top: 3px;
+
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-top .wachlist{
+  display: flex;
+  align-items: center;
+  gap: 108px;
+  position: absolute;
+  top: 1368px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-top .wachlist .percentage{
+  background-color: #DC2626;
+  border-radius: 40px;
+  height: 24px;
+  width: 38.3px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-top .wachlist .percentage small{
+  color: #fef2f2;
+  font-weight: 800;
+  font-size: 10px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom {
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 4px;
+  margin-top: 18px; 
+  width: 171px;
+  height: 33px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom h5{
+ font-weight: 500;
+ font-size: 13px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .star{
+  margin-bottom: 3px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .star img{
+  width: 66px;
+  height: 11px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .star span{
+  font-weight: 400;
+  font-size: 12px;
+  color: #6b7280;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .doller{
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .doller h5{
+  font-weight: 700;
+  font-size: 22px;
+  color: #DC2626;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .doller span{
+  font-weight: 500;
+  font-size: 16px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .cart{
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .cart span{
+  color: #16a34a;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+/* protein */
+
+#spotlight .spotlight-main .spotlight-right .card .ul-3{
+  display: flex;
+  border: 1px solid #E5E7EB;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein{
+  width: 202px;
+  height: 353px;
+  padding: 20px;
+  border-left: 1px solid #E5E7EB;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .change{
+  width: 24px;
+  height: 14px;
+  background-color: #0000001A;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-left: 144px;
+  position: absolute;
+  top: 798px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .change .yellow{
+  width: 6px;
+  height: 6px;
+  background-color: #facc15;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .change .white{
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .protein-img{
+  margin-left: 15px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .protein-img img{
+  position:relative;
+  margin-top: 3px;
+
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .wachlist{
+  display: flex;
+  align-items: center;
+  gap: 108px;
+  position: absolute;
+  top: 1368px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .wachlist .percentage{
+  background-color: #DC2626;
+  border-radius: 40px;
+  height: 24px;
+  width: 38.3px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .wachlist .percentage small{
+  color: #fef2f2;
+  font-weight: 800;
+  font-size: 10px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom {
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 4px;
+  margin-top: 18px; 
+  width: 171px;
+  height: 33px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom h5{
+ font-weight: 500;
+ font-size: 13px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .star{
+  margin-bottom: 3px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .star img{
+  width: 66px;
+  height: 11px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .star span{
+  font-weight: 400;
+  font-size: 12px;
+  color: #6b7280;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .doller{
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .doller h5{
+  font-weight: 700;
+  font-size: 22px;
+  color: #DC2626;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .doller span{
+  font-weight: 500;
+  font-size: 16px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .cart{
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .cart span{
+  color: #16a34a;
+  font-weight: 700;
+  font-size: 11px;
+}
 
 
