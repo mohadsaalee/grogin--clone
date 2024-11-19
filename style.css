@@ -1196,13 +1196,13 @@
 
 /* banana */
 
-#spotlight .spotlight-main .spotlight-right .card .ul-2 .banana{
+#spotlight .spotlight-main .spotlight-right .card .banana{
   width: 202px;
   height: 353px;
   padding: 20px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-2 .banana .change{
-  width: 24px;
+#spotlight .spotlight-main .spotlight-right .card .banana .change{
+  width: 32px;
   height: 14px;
   background-color: #0000001A;
   border-radius: 30px;
@@ -1212,7 +1212,7 @@
   gap: 3px;
   margin-left: 144px;
   position: absolute;
-  top: 798px;
+  top: 1171px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .banana .change .yellow{
   width: 6px;
@@ -1220,24 +1220,24 @@
   background-color: #facc15;
   border-radius: 25px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-2 .banana .change .white{
+#spotlight .spotlight-main .spotlight-right .card .banana .change .white{
   width: 6px;
   height: 6px;
   background-color: #ffffff;
   border-radius: 25px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-top .potato-img{
+#spotlight .spotlight-main .spotlight-right .card .banana-top .potato-img{
   margin-left: 15px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-top .potato-img img{
+#spotlight .spotlight-main .spotlight-right .card .banana-top .potato-img img{
   position:relative;
   margin-top: 3px;
 
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-top .wachlist{
+#spotlight .spotlight-main .spotlight-right .card .banana-top .wachlist{
   display: flex;
   align-items: center;
-  gap: 108px;
+  gap: 98px;
   position: absolute;
   top: 1018px;
 }
@@ -1250,6 +1250,37 @@
   justify-content: center;
   align-items: center; 
 }
+#spotlight .spotlight-main .spotlight-right .card .card-1 .ul-2 .banana .change{
+  width: 32px;
+  height: 14px;
+  border-radius: 30px;
+  background: #0000001A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  position: absolute;
+  top: 807px;
+  margin-left: 127px;
+}
+#spotlight .spotlight-main .spotlight-right .card .card-1 .ul-2 .banana .change .yellow{
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background : #FACC15;
+}
+#spotlight .spotlight-main .spotlight-right .card .card-1 .ul-2 .banana .change .white{
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
+#spotlight .spotlight-main .spotlight-right .card .card-1 .ul-2 .banana .change .white2{
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-top .wachlist .percentage small{
   color: #fef2f2;
   font-weight: 800;
@@ -1259,7 +1290,7 @@
   font-weight: 500;
   font-size: 13px;
   margin-bottom: 5px;
-  margin-top: 18px; 
+  margin-top: 8px; 
   width: 171px;
   height: 33px;
 }
@@ -1481,6 +1512,37 @@
   font-weight: 800;
   font-size: 10px;
 }
+#spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest .change{
+  width: 40px;
+  height: 14px;
+  border-radius: 30px;
+  background: #0000001A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  position: absolute;
+  top: 1156px;
+  margin-left: 127px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest .change .yellow{
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background : #FACC15;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest .change .white{
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest .change .white2{
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest-bottom {
   font-weight: 500;
   font-size: 13px;
@@ -1553,7 +1615,7 @@
   gap: 3px;
   margin-left: 144px;
   position: absolute;
-  top: 798px;
+  top: 1060px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant .change .yellow{
   width: 6px;
@@ -1655,6 +1717,7 @@
   width: 202px;
   height: 353px;
   padding: 20px;
+  border-left: 1px solid #E5E7EB;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegranate .change{
   width: 24px;
@@ -1681,10 +1744,10 @@
   background-color: #ffffff;
   border-radius: 25px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegrante-top .potato-img{
+#spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegranate-top .potato-img{
   margin-left: 15px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegrante-top .potato-img img{
+#spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegranate-top .potato-img img{
   position:relative;
   margin-top: 3px;
 
@@ -1829,6 +1892,31 @@
   font-weight: 800;
   font-size: 10px;
 }
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon .change{
+  width: 24px;
+  height: 14px;
+  background-color: #0000001A;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-left: 144px;
+  position: absolute;
+  top: 1495px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon .change .yellow{
+  width: 6px;
+  height: 6px;
+  background-color: #facc15;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon .change .white{
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon-bottom {
   font-weight: 500;
   font-size: 13px;
@@ -1945,6 +2033,31 @@
   color: #fef2f2;
   font-weight: 800;
   font-size: 10px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli .change{
+  width: 24px;
+  height: 14px;
+  background-color: #0000001A;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-left: 144px;
+  position: absolute;
+  top: 1495px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli .change .yellow{
+  width: 6px;
+  height: 6px;
+  background-color: #facc15;
+  border-radius: 25px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli .change .white{
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 25px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom {
   font-weight: 500;
@@ -2239,14 +2352,14 @@
   display: flex;
   border: 1px solid #E5E7EB;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein{
   width: 202px;
   height: 353px;
   padding: 20px;
   border-left: 1px solid #E5E7EB;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple .change{
-  width: 24px;
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .change{
+  width: 40px;
   height: 14px;
   background-color: #0000001A;
   border-radius: 30px;
@@ -2256,36 +2369,29 @@
   gap: 3px;
   margin-left: 144px;
   position: absolute;
-  top: 798px;
+  top: 1511px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple .change .yellow{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .change .yellow{
   width: 6px;
   height: 6px;
   background-color: #facc15;
   border-radius: 25px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple .change .white{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .change .white{
   width: 6px;
   height: 6px;
   background-color: #ffffff;
   border-radius: 25px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-top .apple-img{
-  margin-left: 15px;
-}
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .apple-img img{
-  position:relative;
-  margin-top: 3px;
 
-}
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-top .wachlist{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .wachlist{
   display: flex;
   align-items: center;
   gap: 108px;
   position: absolute;
   top: 1368px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-top .wachlist .percentage{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .wachlist .percentage{
   background-color: #DC2626;
   border-radius: 40px;
   height: 24px;
@@ -2294,12 +2400,56 @@
   justify-content: center;
   align-items: center; 
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-top .wachlist .percentage small{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .wachlist .percentage small{
   color: #fef2f2;
   font-weight: 800;
   font-size: 10px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-bottom {
+#spotlight .spotlight-main .spotlight-right .card .card-1 .ul-2 .banana .change{
+  width: 32px;
+  height: 14px;
+  border-radius: 30px;
+  background: #0000001A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  position: absolute;
+  top: 1600px;
+  margin-left: 127px;
+}
+#spotlight .spotlight-main .spotlight-right .card .card-1 .ul-2 .banana .change .yellow{
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background : #FACC15;
+}
+#spotlight .spotlight-main .spotlight-right .card .card-1 .ul-2 .banana .change .white{
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
+#spotlight .spotlight-main .spotlight-right .card .card-1 .ul-2 .banana .change .white2{
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-top .wachlist .percentage small{
+  color: #fef2f2;
+  font-weight: 800;
+  font-size: 10px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-bottom .yellow{
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-top: 8px; 
+  width: 171px;
+  height: 33px;
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom {
   font-weight: 500;
   font-size: 13px;
   margin-bottom: 4px;
@@ -2307,23 +2457,23 @@
   width: 171px;
   height: 33px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-bottom h5{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom h5{
  font-weight: 500;
  font-size: 13px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-bottom .star{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .star{
   margin-bottom: 3px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-bottom .star img{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .star img{
   width: 66px;
   height: 11px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-bottom .star span{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .star span{
   font-weight: 400;
   font-size: 12px;
   color: #6b7280;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-bottom .doller{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .doller{
   gap: 5px;
   display: flex;
   align-items: center;
@@ -2334,36 +2484,35 @@
   font-size: 22px;
   color: #DC2626;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-bottom .doller span{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-bottom .cart{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .cart{
   display: flex;
   align-items: center;
   gap: 5px; 
   margin-top: 9px;
   margin-bottom: 5px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple-bottom .cart span{
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .cart span{
   color: #16a34a;
   font-weight: 700;
   font-size: 11px;
 }
 /* ul-4 */
-
-#spotlight .spotlight-main .spotlight-right .card .ul-3{
+#spotlight .spotlight-main .spotlight-right .card .ul-4{
   display: flex;
   border: 1px solid #E5E7EB;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple{
-  width: 202px;
+#spotlight .spotlight-main .spotlight-right .card .ul-4 .apple{
+  width: 203px;
   height: 353px;
   padding: 20px;
-  border-left: 1px solid #E5E7EB;
+  border-right: 1px solid #E5E7EB;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-3 .apple .change{
-  width: 24px;
+#spotlight .spotlight-main .spotlight-right .card .ul-4 .apple .change{
+  width: 32px;
   height: 14px;
   background-color: #0000001A;
   border-radius: 30px;
@@ -2373,7 +2522,7 @@
   gap: 3px;
   margin-left: 144px;
   position: absolute;
-  top: 798px;
+  top: 1864px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple .change .yellow{
   width: 6px;
@@ -2387,10 +2536,10 @@
   background-color: #ffffff;
   border-radius: 25px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-top .protein-img{
+#spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-top .apple-img{
   margin-left: 15px;
 }
-#spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-top .protein-img img{
+#spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-top .apple-img img{
   position:relative;
   margin-top: 3px;
 
@@ -2400,7 +2549,7 @@
   align-items: center;
   gap: 108px;
   position: absolute;
-  top: 1368px;
+  top: 1728px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-top .wachlist .percentage{
   background-color: #DC2626;
