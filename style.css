@@ -417,7 +417,7 @@
 /* spot-left-bottom*/
 
 #spotlight .spot-left-bttm {
-  margin-left: -30px;
+  margin-left: -16px;
 }
 #spotlight .spot-left-bttm h5 {
   margin-top: 15px;
@@ -482,7 +482,8 @@
 
 /*  */
 
-#spotlight .spot-left-bttm .left-bttm3 {
+#spotlight .spot-left-bttm .left-bttm2 {
+  margin-top: 28px;
 }
 #spotlight .spot-left-bttm .left-bttm3 h5 {
   width: 600px;
@@ -504,18 +505,21 @@
   height: 14px;
 }
 #spotlight .spot-left-bttm .left-bttm3 {
+  margin-top: 28px;
 }
 #spotlight .spot-left-bttm .left-bttm3 .product-status2 {
   display: flex;
   gap: 10px;
 }
 #spotlight .spot-left-bttm .left-bttm3 .product-status2 input {
-  width: 16px;
+  width: 31px;
   height: 16px;
 }
 #spotlight .spot-left-bttm .left-bttm3 .product-status2 h6 {
   width: 500px;
   height: 14px;
+  color: #030712;
+
 }
 
 /*  */
@@ -1210,9 +1214,9 @@
   justify-content: center;
   align-items: center;
   gap: 3px;
-  margin-left: 144px;
+  margin-left: 117px;
   position: absolute;
-  top: 1171px;
+  top: 1151px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .banana .change .yellow{
   width: 6px;
@@ -1249,6 +1253,9 @@
   display: flex;
   justify-content: center;
   align-items: center; 
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-top .organic{
+  margin-top: -18px;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-2 .banana .change{
   width: 32px;
@@ -1409,6 +1416,7 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .spinach-bottom h5{
  font-weight: 500;
  font-size: 13px;
+ margin-bottom: 6px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .spinach-bottom .star{
   margin-bottom: 3px;
@@ -1554,6 +1562,7 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest-bottom h5{
  font-weight: 500;
  font-size: 13px;
+ margin-bottom: 3px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest-bottom .star{
   margin-bottom: 3px;
@@ -1586,7 +1595,7 @@
   display: flex;
   align-items: center;
   gap: 5px; 
-  margin-top: 9px;
+  margin-top: 2px;
   margin-bottom: 5px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest-bottom .cart span{
@@ -1613,9 +1622,9 @@
   justify-content: center;
   align-items: center;
   gap: 3px;
-  margin-left: 144px;
+  margin-left: 131px;
   position: absolute;
-  top: 1060px;
+  top: 1156px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant .change .yellow{
   width: 6px;
@@ -1640,7 +1649,7 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant-top .wachlist{
   display: flex;
   align-items: center;
-  gap: 108px;
+  gap: 97px;
   position: absolute;
   top: 1018px;
 }
@@ -1669,9 +1678,11 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant-bottom h5{
  font-weight: 500;
  font-size: 13px;
+
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant-bottom .star{
   margin-bottom: 3px;
+  margin-top: 6px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant-bottom .star img{
   width: 66px;
@@ -2617,4 +2628,72 @@
   font-size: 11px;
 }
 
+/* footer */
 
+#footer{
+  background: #F3F4F6;
+  margin-top: 80px;
+
+}
+#footer .footer-top{
+  display: flex;
+  justify-content: space-between;  
+}
+#footer .footer-top .join{
+  /* display: flex; */
+
+}
+#footer .footer-top .join h4{
+  font-weight: 700;
+  font-size: 20px;
+  color: #111827;
+}
+#footer .footer-top .join p{
+  font-weight: 400;
+  font-size: 13px;
+  color: #6B7280;
+  width: 315.62px;
+  height: 35.52px;
+  line-height: 19.51px;
+}
+#footer .footer-top .mail{
+  
+  
+}
+#footer .footer-top .mail .inbox{
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  
+  
+}
+#footer .footer-top .mail .inbox .mail-search-bar{
+  border: none;
+  width: 418px;
+
+}
+#footer .footer-top .mail .inbox .send{
+  background: #634C9F;
+  color: #ffffff;
+  padding: 5px;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+#footer .footer-top .mail span{
+  font-weight: 400;
+  font-size: 11px;
+  color: #6B7280;
+}
+#footer .footer-top .mail a{
+  font-weight: 500;
+  font-size: 11px;
+}
+#footer .line{
+  width: 1px;
+  color: #d1d5db;
+  margin-bottom: 10px;
+  height: 2px;
+}
