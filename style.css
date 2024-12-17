@@ -2633,14 +2633,15 @@
 #footer{
   background: #F3F4F6;
   margin-top: 80px;
-
+  background:#F3F4F6 ;
 }
 #footer .footer-top{
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+
 }
 #footer .footer-top .join{
-  /* display: flex; */
+  margin-top: 30px;
 
 }
 #footer .footer-top .join h4{
@@ -2657,30 +2658,39 @@
   line-height: 19.51px;
 }
 #footer .footer-top .mail{
-  
-  
+  margin-top: 30px;
 }
 #footer .footer-top .mail .inbox{
   background: #FFFFFF;
   display: flex;
   align-items: center;
   margin-bottom: 5px;
-  
+  font-weight: 400;
+  font-size: 14px;
+  width: 418px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 8px;
   
 }
 #footer .footer-top .mail .inbox .mail-search-bar{
   border: none;
   width: 418px;
-
-}
-#footer .footer-top .mail .inbox .send{
-  background: #634C9F;
-  color: #ffffff;
-  padding: 5px;
-  border: none;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 
+}
+
+#footer .footer-top .mail .inbox .send{
+  width: ;
+  height: 100%;
+  background: #634C9F;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px;
+  border: none;
+  padding: 5px;
 }
 #footer .footer-top .mail span{
   font-weight: 400;
@@ -2688,12 +2698,113 @@
   color: #6B7280;
 }
 #footer .footer-top .mail a{
-  font-weight: 500;
+  font-weight: 400;
   font-size: 11px;
 }
 #footer .line{
-  width: 1px;
-  color: #d1d5db;
-  margin-bottom: 10px;
-  height: 2px;
+  height: 1px;
+  width: 100%;
+  background-color: #D1D5DB;
+  margin-top: 20px;
+}
+/*  */
+#footer .footer-middle{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+#footer .footer-middle .middle1{
+  
+}
+#footer .footer-middle .middle1 .do{
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+}
+#footer .footer-middle .middle1 .Autoseligen{
+  width: 268px;
+  height: 35px;
+  color: #6B7280;
+}
+#footer .footer-middle .middle1 li{
+  font-weight: 400;
+  font-size: 13px;
+}
+#footer .footer-middle .middle1 .call .call-2 span{
+  font-weight: 400;
+  font-size: 12px;
+  color: #111827;
+  
+}
+#footer .footer-middle .middle1 .mon h5{
+  color: #111827;
+}
+#footer .footer-middle .middle1 .call{
+  display: flex;
+  gap: 3px;
+}
+#footer .footer-middle .middle1 .mon{
+  display: flex;
+  gap: 5px;
+}
+#footer .footer-middle .middle1 .mon .mon-1{}
+#footer .footer-middle .middle1 .mon .mon-2 span{
+  font-weight: 400;
+  font-size: 12px;
+  color: #111827;
+}
+#footer .footer-middle .middle1 .mon .mon-2 h5{
+  font-weight: 600;
+  font-size: 14px;
+}
+/*  */
+#footer .footer-middle2{
+
+}
+#footer .footer-middle .middle2 .make{
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+}
+#footer .footer-middle .middle2 li{
+  font-weight: 400;
+  font-size: 13px;
+  color: #4B5563;
+}
+
+/*  */
+
+#footer .footer-middle3{
+
+}
+#footer .footer-middle .middle3 .let{
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+
+}
+
+#footer .footer-middle .middle3 li{
+  font-weight: 400;
+  font-size: 13px;
+  color: #4B5563;
+}
+
+/*  */
+
+#footer .footer-middle4{
+
+}
+#footer .footer-middle .middle4 .get{
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+
+}
+#footer .footer-middle .middle4 li{
+  font-weight: 400;
+  font-size: 13px;
+  color: #4B5563;
+  
 }
