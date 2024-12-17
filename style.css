@@ -225,13 +225,17 @@
 #navbar .navbar4 .nav4-left ul li {
   font-size: 15px;
   font-weight: 600;
+  
 }
+
+
 #navbar .navbar4 .nav4-left ul li .line {
-  /* margin-top: 18px; */
+  margin-top: 18px;
 }
 #navbar .navbar4 .nav4-left ul li a {
   color: #030712;
   gap: 23px;
+
 }
 
 #navbar .navbar4 .nav4-left ul li .color {
@@ -2664,26 +2668,32 @@
   background: #FFFFFF;
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
+  justify-content: space-between;
   font-weight: 400;
+  border: 1px solid #D1D5DB ;
   font-size: 14px;
   width: 418px;
   height: 48px;
-  padding: 10px;
   border-radius: 8px;
   
 }
-#footer .footer-top .mail .inbox .mail-search-bar{
+#footer .footer-top .mail .inbox .inputbox{
+  display: flex;
+  width: 406px;
+  margin-left: 16px;
+}
+#footer .footer-top .mail .inbox .inputbox .mail-search-bar{
   border: none;
-  width: 418px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 
 }
 
 #footer .footer-top .mail .inbox .send{
-  width: ;
-  height: 100%;
+  width: 73.11px ;
+  height: 50px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
   background: #634C9F;
   color: #ffffff;
   font-weight: 700;
@@ -2699,7 +2709,7 @@
 }
 #footer .footer-top .mail a{
   font-weight: 400;
-  font-size: 11px;
+  font-size: 10px;
 }
 #footer .line{
   height: 1px;
@@ -2711,10 +2721,13 @@
 #footer .footer-middle{
   display: flex;
   justify-content: space-between;
+  margin-top: 45px;
 
 
 }
 #footer .footer-middle .middle1{
+  display: grid;
+  grid-template-rows: 35px;
   
 }
 #footer .footer-middle .middle1 .do{
@@ -2742,11 +2755,11 @@
 }
 #footer .footer-middle .middle1 .call{
   display: flex;
-  gap: 3px;
+  gap: 23px;
 }
 #footer .footer-middle .middle1 .mon{
   display: flex;
-  gap: 5px;
+  gap: 23px;
 }
 #footer .footer-middle .middle1 .mon .mon-1{}
 #footer .footer-middle .middle1 .mon .mon-2 span{
@@ -2766,16 +2779,20 @@
   font-weight: 600;
   font-size: 14px;
   color: #111827;
+  margin-bottom: 5px;
 }
 #footer .footer-middle .middle2 li{
   font-weight: 400;
   font-size: 13px;
   color: #4B5563;
+  display: grid;
+  grid-template-rows: 25px;
 }
 
 /*  */
 
 #footer .footer-middle3{
+
 
 }
 #footer .footer-middle .middle3 .let{
@@ -2789,11 +2806,13 @@
   font-weight: 400;
   font-size: 13px;
   color: #4B5563;
+  display: grid;
+  grid-template-rows: 25px;
 }
 
 /*  */
 
-#footer .footer-middle4{
+#footer .footer-middle .middle4{
 
 }
 #footer .footer-middle .middle4 .get{
@@ -2806,5 +2825,85 @@
   font-weight: 400;
   font-size: 13px;
   color: #4B5563;
+  display: grid;
+  grid-template-rows: 25px;
   
+}
+/*  */
+
+#footer .footer-middle .middle5{
+
+}
+#footer .footer-middle .middle5 .download{
+font-weight: 600;
+font-weight: 14px;
+margin-bottom: 5px;
+}
+#footer .footer-middle .middle5 .gooleplay{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+#footer .footer-middle .middle5 .gooleplay img{
+  width: 120px;
+  height: 38.92px;
+}
+#footer .footer-middle .middle5 .gooleplay span{
+  font-weight: 500;
+  font-size: 10px;
+  color: #6B7280;
+  width: 94px;
+}
+#footer .footer-middle .middle5 .applestore{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+#footer .footer-middle .middle5 .applestore img{
+  width: 120px;
+  height: 38.92px;
+}
+
+#footer .footer-middle .middle5 .applestore span{
+  font-weight: 500;
+  font-size: 10px;
+  color: #6B7280;
+  width: 94px;
+}
+#footer .footer-middle .middle5 .follow{
+  font-weight: 400;
+  font-size: 12px;
+  color: #111827;
+  margin-bottom: 6px;
+}
+/*  */
+#footer .footer-botttom{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ 
+}
+#footer .footer-bottom .bottom-left{
+}
+#footer .footer-botttom .bottom-left h6{
+  font-weight: 500;
+  font-size: 12px;
+  color: #6B7280;
+}
+#footer .footer-bottom .bottom-left .pay{
+  gap: 5px;
+}
+#footer .footer-botttom .bottom-right{
+  display: flex;
+  gap: 6px;
+
+}
+#footer .footer-botttom .bottom-right h6{
+  font-weight: 400;
+  font-size: 12px;
+  color: #111827;
+  text-decoration: underline;
 }
