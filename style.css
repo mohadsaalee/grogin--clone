@@ -104,6 +104,28 @@
   gap: 10px;
   align-items: center;
 }
+#navbar .navbar2 .navbar2-right .english1{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+#navbar .navbar2 .navbar2-right .english1 img{
+  width: 8.08px;
+  height: 4.33px;
+  color: #6B7280;
+
+ 
+}
+#navbar .navbar2 .navbar2-right .english2{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#navbar .navbar2 .navbar2-right .english2 img{
+  width: 8.08px;
+  height: 4.33px;
+  color: #6B7280;
+}
 #navbar .navbar2 .navbar2-right h5 {
   color: #6b7280;
   font-size: 12px;
@@ -168,6 +190,8 @@
   align-items: center;
   margin-top: 15px;
   padding: 10px;
+  border-radius: 8px;
+
 }
 #navbar .navbar4 .nav4-left ul li .line3 {
   height: 1px;
@@ -178,6 +202,8 @@
   width: 100%;
   border: none;
   background: #f3f4f6;
+  color: #6B7280;
+
 }
 #navbar .navbar3 .navbar3-middle .nav-search .search-bar {
   /* margin-left: 23px; */
@@ -278,9 +304,11 @@
 }
 #navbar .navbar4 .nav4-right ul {
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
-#navbar .navbar4 .nav4-right ul li {
+#navbar .navbar4 .nav4-right ul .nav4-right2{
+  /* display: flex;
+  align-items: center; */
 }
 #navbar .navbar4 .nav4-right ul li span {
   color: #ffffff;
@@ -296,12 +324,12 @@
   font-size: 15px;
   font-weight: 600;
 }
-/* #navbar .navbar4 .nav4-right ul li a .color img {
-  width: 9.9px;
+#navbar .navbar4 .nav4-right ul img {
+  width: 12.9px;
   margin-left: 3px;
-  color: red;
+  color: #DC2626;
   
-} */
+}
 #navbar .navbar4 .nav4-right ul .right-2 .img{
   color: red;
   width: 9.9px;
@@ -325,6 +353,7 @@
 
 #spotlight .spot-left .sp-lft-top .home {
   display: flex;
+  align-items: center;
   gap: 10px;
   margin-top: 30px;
 }
@@ -333,7 +362,7 @@
   gap: 3px;
 }
 #spotlight .spot-left .sp-lft-top .home .home-img h6{
-  color: #9CA3AF;
+  color: #030712;
   font-weight: 400;
   font-size: 12px;
 }
@@ -341,6 +370,7 @@
   margin: 20px 0 20px 0;
   font-weight: 600;
   font-size: 14px;
+  color: #030712;
 }
 #spotlight .spot-left .sp-lft-top .filter {
 }
@@ -438,8 +468,9 @@
 #spotlight .spot-left-middle .check-item input {
   width: 16px;
   height: 16px;
-  color: #FFFFFF;
-  border: none;
+  accent-color: #634C9F;
+  border: 2px solid #eb0b0b;
+  box-shadow: 0px 1px 2px 0px #ff0000;
 }
 #spotlight .spot-left-middle .check-item h6 {
   font-weight: 500;
@@ -487,13 +518,18 @@
   align-items: center;
   display: flex;
 }
-#spotlight .spot-left-bttm .left-bttm-1 input {
-  margin-right: 10px;
+#spotlight .spot-left-bttm .left-bttm-1 .circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #81D742;
+  margin-right: 5px;
 }
 #spotlight .spot-left-bttm .left-bttm-1 h6 {
   font-weight: 400;
   font-size: 14px;
   margin-right: 202px;
+  color: #030712;
 }
 #spotlight .spot-left-bttm .left-bttm-1 span {
   font-size: 11px;
@@ -573,7 +609,8 @@
 }
 #spotlight .spot-left-bttm .left-bttm3 .product-status2 {
   display: flex;
-  gap: 10px;
+  gap: 0px;
+  margin-left: -5px;
   
 }
 #spotlight .spot-left-bttm .left-bttm3 .product-status2 input {
@@ -610,18 +647,36 @@
 }
 #spotlight .spotlight-main .spotlight-right .bantage{
   display: flex;
-  gap: 5px;
+  gap: 10px;
   margin-top: 62px;
   margin-left: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
 }
 #spotlight .spotlight-main .spotlight-right .bantage .bantage1{
   display: flex;
   align-items: center;
+  gap: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .bantage .bantage1 .closs img{
+  width: 10px;
+}
+#spotlight .spotlight-main .spotlight-right .bantage .bantage1 h6{
+  font-weight: 500;
+  font-size: 14px;
+  color: #555555;
 }
 #spotlight .spotlight-main .spotlight-right .bantage .bantage2{
   display: flex;
   align-items: center;
+  gap: 5px;
+}
+#spotlight .spotlight-main .spotlight-right .bantage .bantage2 .closs img{
+  width: 10px;
+}
+#spotlight .spotlight-main .spotlight-right .bantage .bantage2 h6{
+  font-weight: 500;
+  font-size: 14px;
+  color: #555555;
 }
 /*  */
 #spotlight .spotlight-main .spotlight-right .banner{
@@ -632,12 +687,16 @@
 #spotlight .spotlight-main .spotlight-right .banner .banner-img{
   position: relative;
   margin-left: 13px;
+  border-radius: 6px;
 
 
 }
+#spotlight .spotlight-main .spotlight-right .banner .banner-img img{
+  border-radius: 6px;
+}
 #spotlight .spotlight-main .spotlight-right .banner .banner-text{
   position: absolute;
-  top: 322px;
+  top: 350px;
   margin-left: 60px;
   display: flex;
   flex-direction: column;  
@@ -713,6 +772,7 @@
   border-radius: 5px;
   margin: 5px 12px;
   padding: 5px;
+  margin-bottom: 8px;
 }
 #spotlight .spotlight-main .spotlight-right .search-bar .search1{
 
@@ -746,7 +806,6 @@
   font-size: 12px;
   color: #020617;
   margin-right: 6px;
-  
 }
 #spotlight .spotlight-main .spotlight-right .search-bar .search2 .line6{
   
@@ -820,7 +879,7 @@
   gap: 3px;
   margin-left: 144px;
   position: absolute;
-  top: 798px;
+  top: 825px;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .potato .change .yellow{
   width: 6px;
@@ -847,7 +906,7 @@
   align-items: center;
   gap: 108px;
   position: absolute;
-  top: 662px;
+  top: 688px;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .potato-top .wachlist .percentage{
   background-color: #DC2626;
@@ -894,6 +953,7 @@
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .potato-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .potato-bottom .cart{
   display: flex;
@@ -929,7 +989,7 @@
   align-items: center;
   gap: 92px;
   position: absolute;
-  top: 665px;
+  top: 688px;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .orange .orange-top .wachlist .percentage{
   background-color: #DC2626;
@@ -947,7 +1007,7 @@
   width: 80.19px;
   height: 24px;
   position: absolute;
-  top: 813px;
+  top: 835px;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .orange .orange-bottom h5{
   font-weight: 500;
@@ -982,6 +1042,7 @@
   font-weight: 500;
   font-size: 16px;
   color: #111827;
+  text-decoration: line-through;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .orange .orange-bottom .cart { 
   display: flex;
@@ -1016,7 +1077,7 @@
   align-items: center;
   gap: 90px;
   position: absolute;
-  top: 664px;
+  top: 688px;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .strawb .strawb-top .wachlist .percentage{
   width: 37.44px;
@@ -1062,6 +1123,7 @@
   font-weight: 500;
   font-size: 16.06px;
   color: #111827;
+  text-decoration: line-through;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .strawb .cart{
   display: flex;
@@ -1124,7 +1186,7 @@
   align-items: center;
   gap: 3px;
   position: absolute;
-  top: 807px;
+  top: 832px;
   margin-left: 127px;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .sliced .change .yellow{
@@ -1180,6 +1242,7 @@
   color: #111827;
   font-weight: 500;
   font-size: 16.06px;
+  text-decoration: line-through;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .sliced .sliced-bottom .cart{
   display: flex;
@@ -1207,7 +1270,7 @@
   display: flex;
   gap: 92px;
   position: absolute;
-  top: 662px;
+  top: 688px;
   align-items: center;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .peach .peach-top .wachlist .percentage{
@@ -1234,7 +1297,7 @@
   align-items: center;
   gap: 3px;
   position: absolute;
-  top: 809px;
+  top: 832px;
   margin-left: 127px;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .peach .change .yellow{
@@ -1281,6 +1344,7 @@
   color: #111827;
   font-weight: 500;
   font-size: 16.06px;
+  text-decoration: line-through;
 }
 #spotlight .spotlight-main .spotlight-right .card .card-1 .ul-1 .peach .peach-bottom .peach-cart{
   display: flex;
@@ -1344,7 +1408,7 @@
   gap: 3px;
   margin-left: 117px;
   position: absolute;
-  top: 1151px;
+  top: 1177px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .banana .change .yellow{
   width: 6px;
@@ -1371,7 +1435,7 @@
   align-items: center;
   gap: 98px;
   position: absolute;
-  top: 1018px;
+  top: 1035px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-top .wachlist .percentage{
   background-color: #DC2626;
@@ -1455,6 +1519,9 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration-line: line-through;
+  color: #111827;
+
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .banana-bottom .cart{
   display: flex;
@@ -1517,7 +1584,7 @@
   align-items: center;
   gap: 108px;
   position: absolute;
-  top: 1018px;
+  top: 1035px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .spinach-top .wachlist .percentage{
   background-color: #DC2626;
@@ -1572,6 +1639,8 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .spinach-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .spinach-bottom .cart{
   display: flex;
@@ -1630,9 +1699,9 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest-top .wachlist{
   display: flex;
   align-items: center;
-  gap: 108px;
+  gap: 90px;
   position: absolute;
-  top: 1018px;
+  top: 1035px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest-top .wachlist .percentage{
   background-color: #DC2626;
@@ -1658,8 +1727,8 @@
   align-items: center;
   gap: 3px;
   position: absolute;
-  top: 1156px;
-  margin-left: 127px;
+  top: 1177px;
+  margin-left: 110px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest .change .yellow{
   width: 6px;
@@ -1718,6 +1787,8 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .harvest-bottom .cart{
   display: flex;
@@ -1752,7 +1823,7 @@
   gap: 3px;
   margin-left: 131px;
   position: absolute;
-  top: 1156px;
+  top: 1177px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant .change .yellow{
   width: 6px;
@@ -1779,7 +1850,7 @@
   align-items: center;
   gap: 97px;
   position: absolute;
-  top: 1018px;
+  top: 1035px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant-top .wachlist .percentage{
   background-color: #DC2626;
@@ -1835,6 +1906,8 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .eggplant-bottom .cart{
   display: flex;
@@ -1894,9 +1967,9 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegranate-top .wachlist{
   display: flex;
   align-items: center;
-  gap: 108px;
+  gap: 95px;
   position: absolute;
-  top: 1018px;
+  top: 1035px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegranate-top .wachlist .percentage{
   background-color: #DC2626;
@@ -1923,6 +1996,7 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegranate-bottom h5{
  font-weight: 500;
  font-size: 13px;
+
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegranate-bottom .star{
   margin-bottom: 3px;
@@ -1950,6 +2024,8 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegranate-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-2 .pomegranate-bottom .cart{
   display: flex;
@@ -2015,7 +2091,7 @@
   align-items: center;
   gap: 108px;
   position: absolute;
-  top: 1368px;
+  top: 1395px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon-top .wachlist .percentage{
   background-color: #DC2626;
@@ -2042,7 +2118,7 @@
   gap: 3px;
   margin-left: 144px;
   position: absolute;
-  top: 1495px;
+  top: 1530px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon .change .yellow{
   width: 6px;
@@ -2094,6 +2170,8 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .lemon-bottom .cart{
   display: flex;
@@ -2157,7 +2235,7 @@
   align-items: center;
   gap: 108px;
   position: absolute;
-  top: 1368px;
+  top: 1395px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-top .wachlist .percentage{
   background-color: #DC2626;
@@ -2184,7 +2262,7 @@
   gap: 3px;
   margin-left: 144px;
   position: absolute;
-  top: 1495px;
+  top: 1530px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli .change .yellow{
   width: 6px;
@@ -2236,6 +2314,8 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .cauli-bottom .cart{
   display: flex;
@@ -2300,7 +2380,7 @@
   align-items: center;
   gap: 108px;
   position: absolute;
-  top: 1368px;
+  top: 1395px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-top .wachlist .percentage{
   background-color: #DC2626;
@@ -2354,6 +2434,8 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .broccoli-bottom .cart{
   display: flex;
@@ -2417,7 +2499,7 @@
   align-items: center;
   gap: 108px;
   position: absolute;
-  top: 1368px;
+  top: 1395px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .black-top .wachlist .percentage{
   background-color: #DC2626;
@@ -2471,6 +2553,8 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .black-bottom .cart{
   display: flex;
@@ -2497,6 +2581,13 @@
   padding: 20px;
   border-left: 1px solid #E5E7EB;
 }
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .protein-top{
+
+}
+#spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .protein-top .protein-img img{
+
+}
+
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .change{
   width: 40px;
   height: 14px;
@@ -2506,9 +2597,9 @@
   justify-content: center;
   align-items: center;
   gap: 3px;
-  margin-left: 144px;
+  margin-left: 108px;
   position: absolute;
-  top: 1511px;
+  top: 1530px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .protein .change .yellow{
   width: 6px;
@@ -2526,9 +2617,9 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .wachlist{
   display: flex;
   align-items: center;
-  gap: 108px;
+  gap: 95px;
   position: absolute;
-  top: 1368px;
+  top: 1395px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-top .wachlist .percentage{
   background-color: #DC2626;
@@ -2626,6 +2717,8 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-3 .protein-bottom .cart{
   display: flex;
@@ -2659,9 +2752,9 @@
   justify-content: center;
   align-items: center;
   gap: 3px;
-  margin-left: 144px;
+  margin-left: 130px;
   position: absolute;
-  top: 1864px;
+  top: 1900px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple .change .yellow{
   width: 6px;
@@ -2686,9 +2779,9 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-top .wachlist{
   display: flex;
   align-items: center;
-  gap: 108px;
+  gap: 100px;
   position: absolute;
-  top: 1728px;
+  top: 1740px;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-top .wachlist .percentage{
   background-color: #DC2626;
@@ -2715,9 +2808,10 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-bottom h5{
  font-weight: 500;
  font-size: 13px;
+
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-bottom .star{
-  margin-bottom: 3px;
+ 
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-bottom .star img{
   width: 66px;
@@ -2742,13 +2836,15 @@
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-bottom .doller span{
   font-weight: 500;
   font-size: 16px;
+  text-decoration: line-through;
+  color: #111827;
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-bottom .cart{
   display: flex;
   align-items: center;
   gap: 5px; 
-  margin-top: 9px;
-  margin-bottom: 5px;
+  margin-top: 2px;
+  /* margin-bottom: 5px; */
 }
 #spotlight .spotlight-main .spotlight-right .card .ul-4 .apple-bottom .cart span{
   color: #16a34a;
@@ -3008,6 +3104,7 @@ margin-bottom: 5px;
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 30px;
+  color: #F3F4F6;
  
 }
 #footer .footer-bottom .bottom-left{
