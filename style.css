@@ -3128,3 +3128,7 @@ margin-bottom: 5px;
   color: #111827;
   text-decoration: underline;
 }
+
+@media all(max-width: 1400px){
+  
+}
