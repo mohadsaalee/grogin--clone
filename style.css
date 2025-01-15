@@ -3128,7 +3128,37 @@ margin-bottom: 5px;
   color: #111827;
   text-decoration: underline;
 }
+@media (max-width : 1400px){
+  .wachlist{
+    width: 55px;
+  }
+  .delivery{
+    display: flex;
+    width: 62px;
+  }
+  .spotlight-right{
+    display: grid;
+    
+  }
 
-@media all(max-width: 1400px){
+}
+@media (max-width : 1280px){
+  .spotlight-right{
+    /* width: 60px;  */
+    
+  }
+  .card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* overflow-y: auto;  */
+    /* width: 50px; */
   
+
+  }
+  .banner{
+    /* width: 40px;
+    height: 40px; */
+    /* align-items: center; */
+  }
+
 }
