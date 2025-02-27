@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- header -->
@@ -51,7 +53,7 @@
                             <div class="english2">
                                 <h5>USD</h5>
                                 <img src="/image/arrow-down.svg" alt="image">
-                            </div>
+                            </div>  
                             <div class="english3">
                                 <h5>Order Tracking</h5>
                             </div>
@@ -84,7 +86,8 @@
                             </div>
                         </div>
                             <div class="navbar3-middle">
-                                <input type="text" id="" placeholder="Search for products, categories or brands..." >
+                                <input type="text" id="navbar3-middle-holder" placeholder="Search for products, categories or brands..."
+                                onkeyup="search()" >
                                 <div>
                                     <img src="/image/Search → Button.svg" alt="image">
                                 </div>
@@ -173,8 +176,18 @@
     
     <section id="spotlight">
         <div class="wrapper">
+            <div class="filter-icn">
+                <div class="icn-img">
+                    <img class="hamburg" src="/image/hamburger.svg" alt="Icon">
+                </div>
+            </div>
             <div class="spotlight-main">
                 <div class="mainleft">
+                    <div class="cross-icn">
+                        <div class="icn-img">
+                            <img class="cross" src="/image/cross.svg" alt="Icon">
+                        </div>
+                    </div>
                     <div class="spot-left">
                         <!-- spotlight-lft-top -->
                         <div class="sp-lft-top">
@@ -335,7 +348,7 @@
                         </div>
                     </div>
                     <!-- search-bar -->
-                    <div class="search-bar">
+                    <div class="search-bar" id="search-bar">
                         <div class="search1">
                             <input type="text" id placeholder="Showing all 16 results" >
                         </div>
@@ -358,559 +371,14 @@
                             </div>
                         </div>
                     </div>
-                    <!-- card  -->
-                    <div class="card">
-                        <div class="card-1">
-                            <ul class="ul-1">
-                                <li class="potato">
-                                    <div class="potato-top">
-                                        <div class="potato-img">
-                                            <img src="/image/potato.png" alt="image">
-                                        </div>
-                                        <div class="wachlist">
-                                            <div class="percentage">
-                                                <small>75%</small>
-                                            </div>
-                                            <img src="/image/wachlist.svg" alt="image">
-                                        </div>
-                                    </div>
-                                    <div class="change">
-                                        <div class="yellow"> </div>
-                                        <div class="white"> </div>
-                                    </div>
-                                    <div class="potato-bottom">
-                                        <h6 class="yellow">Yellow Potatoes Whole Fresh, 5lb Bag</h6>
-                                        <div class="star">
-                                            <img src="/image/Rated 4.33 out of 5.png" alt="image">
-                                            <span>3</span>
-                                        </div>
-                                        <div class="doller">
-                                            <h5>$0.50 </h5>
-                                            <span>$1.99</span>
-                                         
-                                        </div>
-                                        <div class="cart">
-                                            <img src="/image/cart.png" alt="image">
-                                            <span>IN Stock</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- ul-1 -->
-                                <li class="orange">
-                                    <div class="orange-top">
-                                        <div class="orange-img">
-                                            <img src="/image/orange.png" alt="image">
-                                        </div>
-                                        <div class="wachlist">
-                                            <div class="percentage">
-                                                <small>75%</small>
-                                            </div>
-                                            <img src="/image/wachlist.svg" alt="image">
-                                        </div>
-                                        <div class="organic">
-                                            <img src="/image/organic.png" alt="image">
-                                        </div>
-                                    </div>
-                                    <div class="orange-bottom">
-                                        <h5>Large Bagged Oranges</h5>
-                                        <div class="star">
-                                            <img src="/image/Rated 4.00 out of 5.png" alt="image">
-                                            <span>3</span>
-                                        </div>
-                                        <div class="doller">
-                                            <h4>$0.89</h4>
-                                            <span>$1.78</span>
-                                        </div>
-                                        <div class="cart">
-                                            <img src="/image/cart.png" alt="image">
-                                            <span>IN Stock</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- strawb -->
-                                <li class="strawb">
-                                    <div class="strawb-top">
-                                        <div class="strawb-img">
-                                            <img src="/image/stwaberry.png" alt="image">
-                                        </div>
-                                        <div class="wachlist">
-                                            <div class="percentage">
-                                                <small>31%</small>
-                                            </div>
-                                            <div><img src="/image/wachlist.svg" alt="image"></div>
-                                        </div>
-                                    </div>
-                                    <div class="strawb-bottom">
-                                        <h5>Strawberries-1b</h5>
-                                    </div>
-                                    <div class="star">
-                                        <img src="image/Rated 4.00 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h4>$1.51</h4>
-                                        <span>$2.15</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </li>
-                                <!--sliced-->
-                                <li class="sliced">
-                                    <div class="sliced-top">
-                                        <div class="sliced-img">
-                                            <img src="/image/sliced.png" alt="image">
-                                        </div>
-                                        <div class="wachlist">
-                                            <div class="percentage">
-                                                <h5>13%</h5>
-                                            </div>
-                                            <div><img src="/image/wachlist.svg" alt="image"></div>
-                                        </div>
-                                    </div>
-                                    <div class="change">
-                                        <div class="yellow"> </div>
-                                        <div class="white"> </div>
-                                        <div class="white2"> </div>
-                                    </div>
-                                    <div class="sliced-bottom">
-                                        <div class="simple"> 
-                                            <h5>Simple Kitchen FD SlicedStrawberries – 1.08lb</h5>
-                                        </div>
-                                        <div class="sliced-star"> 
-                                            <img src="image/Rated 3.33 out of 5.png" alt="image">
-                                            <small>3</small>
-                                        </div>
-                                        <div class="doller">
-                                            <h4>$21.90</h4>
-                                            <span>$24.90</span>
-                                        </div>
-                                        <div class="cart">
-                                            <img src="/image/cart.png" alt="image">
-                                            <span>IN Stock</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- peach -->
-                                <li class="peach">
-                                    <div class="peach-top">
-                                        <div>
-                                            <img src="/image/peach.png" alt="image">
-                                        </div>
-                                        <div class="wachlist">
-                                            <div class="percentage">
-                                                <p>58%</p>
-                                            </div>
-                                            <div>
-                                                <img src="/image/wachlist.svg" alt="image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="change">
-                                        <div class="yellow"> </div>
-                                        <div class="white"> </div>
-                                    </div>
-                                    <div class="peach-bottom">
-                                        <h5>Peach-each</h5>
-                                        <div class="peach-star">
-                                            <img src="/image/Rated 4.33 out of 5.png" alt="image">
-                                            <span>3</span>
-                                        </div>
-                                        <div class="doller">
-                                            <h4>$1.50</h4>
-                                            <span>$1.75</span>
-                                        </div>
-                                        <div class="peach-cart">
-                                            <img src="/image/cart.png" alt="image">
-                                            <span>IN Stock</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- ul-2 -->
-                        <div class="ul-2">
-                            <li class="banana">
-                                <div class="banana-top">
-                                    <div class="banana-img">
-                                        <img src="/image/banana.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>56%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                    <div class="organic">
-                                        <img src="/image/organic.png" alt="image">
-                                    </div>
-                                </div>
-                                <div class="change">
-                                    <div class="yellow"> </div>
-                                    <div class="white"> </div>
-                                    <div class="white"> </div>
-                                </div>
-                                <div class="banana-bottom">
-                                    <h6 class="yellow">
-                                        Marketside Fresh Organic Bananas, Bunch
-                                    </h6>
-                                    <div class="star">
-                                        <img src="/image/Img - Rated 3.00 out of 5.png" alt="image">
-                                        <span>2</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$0.89</h5>
-                                        <span>$1.99</span>
-                                     
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- spinach -->
-                            <li class="spinach">
-                                <div class="spinach-top">
-                                    <div class="spinach-img">
-                                        <img src="/image/spinach.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>16%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                </div>
-                                <div class="spinach-bottom">
-                                    <h5>Large Garden Spinach &
-                                        Herb Wrap Tortillas –…</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 4.00 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$27.90</h5>
-                                        <span>$32.90</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- harvest-->
-                            <li class="harvest">
-                                <div class="harvest-top">
-                                    <div class="harvest-img">
-                                        <img src="/image/harvest.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>10%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                </div>
-                                <div class="change">
-                                    <div class="yellow"> </div>
-                                    <div class="white"> </div>
-                                    <div class="white"> </div>
-                                    <div class="white"> </div>
-                                </div>
-                                <div class="harvest-bottom">
-                                    <h5>Halloween Harvest Caramel
-                                        Apple Soft Caramels –…</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 3.33 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$19.37</h5>
-                                        <span>$21.37</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- eggplant -->
-                            <li class="eggplant">
-                                <div class="eggplant-top">
-                                    <div class="eggplant-img">
-                                        <img src="/image/eggplant.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>26%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                </div>
-                                <div class="change">
-                                    <div class="yellow"> </div>
-                                    <div class="white"> </div>
-                                </div>
-                                <div class="eggplant-bottom">
-                                    <h5>Fresh Purple Eggplant</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 3.33 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$2.99</h5>
-                                        <span>$3.99</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- pomegranate -->
-                            <li class="pomegranate">
-                                <div class="pomegranate-top">
-                                    <div class="pomegranate-img">
-                                        <img src="/image/pomegrante.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>50%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                </div>
-                                <div class="pomegranate-bottom">
-                                    <h5>Fresh Pomegranate, Each</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 3.33 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$1.50</h5>
-                                        <span>$2.99</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                                
-                            </li>
-
-                        </div>
-                        <!--  -->
-                        <div class="ul-3">
-                            <li class="lemon">
-                                <div class="lemon-top">
-                                    <div class="lemon-img">
-                                        <img src="/image/lemon.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>26%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                </div>
-                                <div class="change">
-                                    <div class="yellow"> </div>
-                                    <div class="white"> </div>
-                                </div>
-                                <div class="lemon-bottom">
-                                    <h5>Fresh Lemon, Each</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 3.33 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$0.50</h5>
-                                        <span>$1.99</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- cauli -->
-                            <li class="cauli">
-                                <div class="cauli-top">
-                                    <div class="cauli-img">
-                                        <img src="/image/caulliflower.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>14%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                </div>
-                                <div class="change">
-                                    <div class="yellow"> </div>
-                                    <div class="white"> </div>
-                                </div>
-                                <div class="cauli-bottom">
-                                    <h5>Fresh Cauliflower, Each</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 3.33 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$12.79</h5>
-                                        <span>$14.79</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- broccoli -->
-                            <li class="broccoli">
-                                <div class="broccoli-top">
-                                    <div class="broccoli-img">
-                                        <img src="/image//broccoli.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>36%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                </div>
-                                <div class="broccoli-bottom">
-                                    <h5>Fresh Broccoli Crowns, Each</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 3.33 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$11.54</h5>
-                                        <span>$17.88</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- black -->
-                            <li class="black">
-                                <div class="black-top">
-                                    <div class="black-img">
-                                        <img src="/image/blackberry.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>41%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                </div>
-                                <div class="black-bottom">
-                                    <h5>Blackberries – 6oz</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 3.33 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$2.99</h5>
-                                        <span>$4.99</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-    
-                            <!-- protein -->
-    
-                            <li class="protein">
-                                <div class="protein-top">
-                                    <div class="protein-img">
-                                        <img src="/image/protein shake.png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>75%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                </div>
-                                <div class="change">
-                                    <div class="yellow"> </div>
-                                    <div class="white"> </div>
-                                    <div class="white"> </div>
-                                    <div class="white"> </div>
-                                </div>
-                                <div class="protein-bottom">
-                                    <h5>30g Protein Shake – Salted
-                                        Caramel – 11 fl oz-4pk</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 3.33 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$11.99</h5>
-                                        <span>$12.99</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-                        <!-- ul-4 -->
-                        <div class="ul-4">
-                            <li class="apple">
-                                <div class="apple-top">
-                                    <div class="apple-img">
-                                        <img src="/image/apple (2).png" alt="image">
-                                    </div>
-                                    <div class="wachlist">
-                                        <div class="percentage">
-                                            <small>17%</small>
-                                        </div>
-                                        <img src="/image/wachlist.svg" alt="image">
-                                    </div>
-                                    <div class="organic">
-                                        <img src="/image/organic.png" alt="image">
-                                    </div>
-                                </div>
-                                <div class="change">
-                                    <div class="yellow"> </div>
-                                    <div class="white"> </div>
-                                    <div class="white"> </div>
-                                </div>
-                                <div class="apple-bottom">
-                                    <h5>Fresh Granny Smith Apple,
-                                        Each</h5>
-                                    <div class="star">
-                                        <img src="/image/Rated 3.33 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h5>$11.99</h5>
-                                        <span>$12.99</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-                    </div>
+                    <div id="productList"></div>
+                    <!-- card -->
+                    <div class="cardbox" id="productContainer"> </div>
                 </div>
             </div>
+            <section class="spotlight-main"></section>
         </div>
     </section>
-
     <!-- footer -->
     <section id="footer">
         <div class="wrapper">
@@ -1017,7 +485,7 @@
                 </ul>
             </div>
             <div class="line"> </div>
-            <!--  -->
+            <!--  -->   
             <div class="footer-botttom">
                 <div class="bottom-left">
                     <h6>Copyright 2024 © Grogin WooCommerce WordPress Theme. All right reserved. Powered by <span style="color: #634C9F;">KLBTheme.</span></h6>
@@ -1037,7 +505,9 @@
             </div>
         </div>
 
-     
     </section>
+    <script src="script.js"></script>
 </body>
-</html>
+
+
+
