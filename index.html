@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
 </head>
 <body>
-
     <!-- header -->
-
     <header>
         <section id="navbar">
             <!-- <section class="wrapper"> -->
@@ -46,9 +46,17 @@
                             
                         </div>
                         <div class="navbar2-right">
-                            <h5>English</h5>
-                            <h5>USD</h5>
-                            <h5>Order Tracking</h5>
+                            <div class="english1">
+                                <h5>English</h5>
+                                <img src="/image/arrow-down.svg" alt="image">
+                            </div>
+                            <div class="english2">
+                                <h5>USD</h5>
+                                <img src="/image/arrow-down.svg" alt="image">
+                            </div>  
+                            <div class="english3">
+                                <h5>Order Tracking</h5>
+                            </div>
                         </div>
                      </div>    
 
@@ -69,7 +77,7 @@
                                     <li>
                                         <a href=""><img src="/image/location.svg" alt="image"></a>
                                     </li>
-                                    <li>
+                                    <li class="delivery">
                                         <small>Delivery to</small>
                                         <span>all</span>
                                     </li>
@@ -78,7 +86,8 @@
                             </div>
                         </div>
                             <div class="navbar3-middle">
-                                <input type="text" id="" placeholder="Search for products, categories or brands..." >
+                                <input type="text" id="navbar3-middle-holder" placeholder="Search for products, categories or brands..."
+                                onkeyup="search()" >
                                 <div>
                                     <img src="/image/Search → Button.svg" alt="image">
                                 </div>
@@ -89,18 +98,23 @@
                                     <a href=""></a><img src="/image/accont.svg" alt="image"></a>    
                                     <small>Account</small>
                                 </li>
-                                <li>
+                                <li class="wachlist">
                                     <a href=""><img src="/image/love.svg" alt="image"> </a>
                                     <small>Wishlist</small>
+                                    <div class="wachlist1">
+                                        <span>0</span>
+                                    </div>
                                 </li>
-                                <li>
+                                <li class="wachlist">
                                     <a href=""><img src="/image/cart.svg" alt="image"></a>
                                     <small>Your Cart</small>
+                                    <div class="wachlist1">
+                                        <span>0</span>
+                                    </div>
 
                                 </li>
                             </ul>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="line"> </div>
@@ -112,40 +126,40 @@
                         <div class="nav4-left">
                             <ul>
                                 <li>
-                                    <a href="">Home</a>
-                                    <a href=""><img src="/image/arrow-down.svg" alt="image"></a>
+                                    <a href="#">Home</a>
+                                    <a href="#"><img src="/image/arrow-down.svg" alt="image"></a>
                                     
                                 </li>
-                                <li>
-                                    <a href="" class="color">Shop</a>
-                                    <a href=""><img src="/image/arrow-down.svg" alt="image"></a>
-                                    <div class="line"></div>
+                                <li class="shop">
+                                    <a href="#" class="color">Shop</a>
+                                    <a href="#"><img src="/image/arrow-down.svg" alt="image"></a>
+                                    <div class="line3"></div>
                                 </li>
                                 <li>
-                                    <a href="" class="color">Fruits & Vegetable</a>
-                                    <div class="line"> </div>
+                                    <a href="#" class="color">Fruits & Vegetable</a>
+                                    <div class="line3"> </div>
                                 </li>
                                 <li>
-                                    <a href="">Beverages</a>
+                                    <a href="#">Beverages</a>
                                 </li>
                                 <li>
-                                    <a href="">Blog</a>
+                                    <a href="#">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="">Contact</a>
+                                    <a href="#">Contact</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="nav4-right">
                             <ul>
                                 <li>
-                                    <a href="">Trending products</a>
-                                    <a href=""><img src="/image/arrow-down.svg" alt="image"><a>
+                                    <a href="#">Trending products</a>
+                                    <a href="#"><img src="/image/arrow-down.svg" alt="image"><a>
                                 </li>
-                                <li>
-                                    <a href="" class="color">Almost Finished</a>
+                                <li class="">
+                                    <a href="#" class="color">Almost Finished</a>
                                     <span>SALE</span>
-                                    <a href="" class="color"><img src="/image//arrow-down.svg" alt="image"></a>
+                                    <img src="/image/arrow down2.png" alt="image">
                                 </li>
                             </ul>
                         </div>
@@ -161,8 +175,18 @@
     
     <section id="spotlight">
         <div class="wrapper">
+            <div class="filter-icn">
+                <div class="icn-img">
+                    <img class="hamburg" src="/image/hamburger.svg" alt="Icon">
+                </div>
+            </div>
             <div class="spotlight-main">
                 <div class="mainleft">
+                    <div class="cross-icn">
+                        <div class="icn-img">
+                            <img class="cross" src="/image/cross.svg" alt="Icon">
+                        </div>
+                    </div>
                     <div class="spot-left">
                         <!-- spotlight-lft-top -->
                         <div class="sp-lft-top">
@@ -254,14 +278,12 @@
                         </div>
                     </div>
                     <div class="line-3"> </div>
-
                   <!-- spot-left-bottom -->
-    
                     <div class="spot-left-bttm">
                         <div class="wrapper">
                             <h5>Filter by Color</h5>
                             <div class="left-bttm-1">
-                                <input type="radio" checked>
+                                <div class="circle"> </div>
                                 <h6>Green</h6>
                                 <span>(1)</span>
                             </div>
@@ -291,20 +313,18 @@
                         </div>
                     </div>
                 </div>
-
-                <!--  -->
-
+                <!-- spotlight-right-->
                 <div class="spotlight-right">
                     <div class="bantage">
                         <div class="bantage1">
-                            <div>
-                                <img src="/image/bantage.png" alt="image/">
+                            <div class="closs">
+                                <img src="/image/close.png" alt="image/">
                             </div>
                             <h6>Clear filters </h6>
                         </div>
                         <div class="bantage2">
-                            <div>
-                                <img src="/image/bantage.png" alt="image">
+                            <div class="closs">
+                                <img src="/image/close.png" alt="image/">
                             </div>
                             <h6>Fruits & Vegetables</h6>
                         </div>
@@ -314,189 +334,179 @@
                             <img src="/image/banner-33.jpg.png" alt="image">
                         </div>
                         <div class="banner-text">
-                            <div class="only"><h6>Only This week</h6></div>
-                            <h4>Grocery store with diffrent <br>treasures</h4>
-                            <span>we have prepared special discount for you on grocery <br>products..</span>
-                            <button class="shop-Now" id="" >shop Now <img src="/image/move-right.png" alt="image"></button>
+                            <div class="only">
+                                <h6>Only This week</h6>
+                            </div>
+                            <div class="grocery">
+                                <h4>Grocery store with diffrent treasures</h4>
+                            </div>
+                            <span>we have prepared special discount for you on grocery products..</span>
+                            <button class="shop-Now" id="" >
+                                <h5>Shop Now </h5>
+                                <img src="/image/move-right.png" alt="image"></button>
                         </div>
                     </div>
-
-                    <!--  -->
-
-                    <div class="search-bar">
+                    <!-- search-bar -->
+                    <div class="search-bar" id="search-bar">
                         <div class="search1">
                             <input type="text" id placeholder="Showing all 16 results" >
                         </div>
                         <div class="search2">
                             <div class="sort">
-                                Sort 
-                                <span>by latest</span>
+                                <h6>Sort:</h6>
+                                <span>Sort by latest</span>
                             </div>
-                            <div>
-                                Show : 20 items
+                            <div class="line6"> </div>
+                            <div class="show">
+                                <span>Show :</span>
+                                <h6>20 items</h6>
                             </div>
-                            <div>
+                            <div class="line6"> </div>
+                            <div class="sqr-1">
                                 <img src="/image/Link.png" alt="image">
                             </div>
-                            <div>
+                            <div class="sqr-2">
                                 <img src="/image/Icon.svg" alt="image">
                             </div>
                         </div>
                     </div>
-
-                    <!--       -->
-
-                    <div class="card">
-                        <div class="card-1">
-                            <ul class="ul-1">
-                                <li class="potato">
-                                    <div class="potato-top">
-                                        <div class="potato-img">
-                                            <img src="/image/potato.png" alt="image">
-                                        </div>
-                                        <div class="wachlist">
-                                            <div class="percentage">75%</div>
-                                            <img src="/image/wachlist.svg" alt="image">
-                                        </div>
-                                    </div>
-                                    <div class="potato-bottom">
-                                        <h6 class="yellow">Yellow Potatoes Whole Fresh, 5lb Bag</h6>
-                                        <div class="star">
-                                            <img src="/image/Rated 4.33 out of 5.png" alt="image">
-                                            <span>3</span>
-                                        </div>
-                                        <div class="doller">
-                                            <h5>$0.50 </h5>
-                                            <span>$1.99</span>
-                                         
-                                        </div>
-                                        <div class="cart">
-                                            <img src="/image/cart.png" alt="image">
-                                            <span>IN Stock</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!--  -->
-                                <li class="orange">
-                                    <div class="orange-top">
-                                        <div class="orange-img">
-                                            <img src="/image/orange.png" alt="image">
-                                        </div>
-                                        <div class="wachlist">
-                                            <div class="percentage">75%</div>
-                                            <img src="/image/wachlist.svg" alt="image">
-                                        </div>
-                                        <div class="organic">
-                                            <img src="/image/organic.png" alt="image">
-                                        </div>
-                                    </div>
-                                    <div class="orange-bottom">
-                                        <h5>Large Bagged Oranges</h5>
-                                        <div class="star">
-                                            <img src="/image/Rated 4.00 out of 5.png" alt="image">
-                                            <span>3</span>
-                                        </div>
-                                        <div class="doller">
-                                            <h4>$0.89</h4>
-                                            <span>$1.78</span>
-                                        </div>
-                                        <div class="cart">
-                                            <img src="/image/cart.png" alt="image">
-                                            <span>IN Stock</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!--  -->
-                                <li class="strawb">
-                                    <div class="strawb-top">
-                                        <div class="strawb-img">
-                                            <img src="/image/stwaberry.png" alt="image">
-                                        </div>
-                                        <div class="wachlist">
-                                            <div class="percentage">31%</div>
-                                            <div><img src="/image/wachlist.svg" alt="image"></div>
-                                        </div>
-                                    </div>
-                                    <div class="strawb-bottom">
-                                        <h5>Strawberries-1b</h5>
-                                    </div>
-                                    <div class="star">
-                                        <img src="image/Rated 4.00 out of 5.png" alt="image">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="doller">
-                                        <h4>$1.50</h4>
-                                        <span>$2.15</span>
-                                    </div>
-                                    <div class="cart">
-                                        <img src="/image/cart.png" alt="image">
-                                        <span>IN Stock</span>
-                                    </div>
-                                </li>
-                                <!--  -->
-                                <li class="sliced">
-                                    <div class="sliced-top">
-                                        <div>
-                                            <img src="/image/sliced.png" alt="image">
-                                        </div>
-                                        <div>
-                                            <div>13%</div>
-                                            <div><img src="/image/wachlist.svg" alt="image"></div>
-                                        </div>
-                                    </div>
-                                    <div class="sliced-bottom">
-                                        <div>
-                                            <h5>Simple Kitchen FD SlicedStrawberries – 1.08lb</h5>
-                                        </div>
-                                        <div>
-                                            <img src="image/" alt="image">
-                                        </div>
-                                        <div>
-                                            <h4>$21.90</h4>
-                                            <span>$24.90</span>
-                                        </div>
-                                        <div>
-                                            <img src="/image/cart.png" alt="image">
-                                            <span>IN Stock</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!--  -->
-                                <li class="peech">
-                                    <div class="peach-top">
-                                        <div>
-                                            <img src="/image/peach.png" alt="image">
-                                        </div>
-                                        <div>
-                                            <div>58%</div>
-                                            <div><img src="/image/wachlist.svg" alt="image"></div>
-                                        </div>
-                                    </div>
-                                    <div class="peach-bottom">
-                                        <h5>Peach-each</h5>
-                                        <div>
-                                            <img src="/image/Rated 4.33 out of 5.png" alt="image">
-                                        </div>
-                                        <div>
-                                            <h4>$1.50</h4>
-                                            <span>$1.75</span>
-                                        </div>
-                                        <div>
-                                            <img src="/image/cart.png" alt="image">
-                                            <span>IN Stock</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    
+                    <div id="productList"></div>
+                    <!-- card -->
+                    <div class="cardbox" id="productContainer"> </div>
                 </div>
-
             </div>
+            <section class="spotlight-main"></section>
         </div>
     </section>
-    
+    <!-- footer -->
+    <section id="footer">
+        <div class="wrapper">
+            <div class="footer-top">
+                <div class="join">
+                    <h4>Join our newsletter for £10 offs</h4>
+                    <p>Register now to get latest updates on promotions &
+                        coupons.Don’t worry, we not spam!
+                    </p>
+                </div>
+                <div class="mail">
+                    <div class="inbox">
+                        <div class="inputbox">
+                            <img src="/image/mail.svg" alt="image"/>
+                            <input type="text" class="mail-search-bar" placeholder="Enter your email address" >
+                        </div>
+                        <button class="send">SEND</button>
+                    </div>
+                    <div>
+                        <span>By subscribing you agree to our </span>
+                        <a href="#">Terms & Conditions and Privacy & Cookies Policy.</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="line"> </div>
+            <!--  -->
+            <div class="footer-middle">
+                <ul class="middle1">
+                    <li class="do">Do You Need Help ?</li>
+                    <li class="Autoseligen">Autoseligen syr. Nek diarask fröbomba. Nör
+                        antipol kynoda nynat. Pressa fåmoska.
+                    </li>
+                    <li class="call" >
+                        <div class="call-1">
+                            <img src="image/call.svg" alt="image">
+                        </div>
+                        <div class="call-2">
+                            <span>Monday-Friday: 08am-9pm</span>
+                            <h3>0 800 300-353</h3>
+                        </div>
+                       
+                    </li>
+                    <li class="mon">
+                        <div class="mon-1">
+                            <img src="/image/mailbox.svg" alt="image">
+                        </div>
+                        <div class="mon-2"> 
+                            <span>Need help with your order?</span>
+                            <h5>info@example.com</h5>
+                        </div>
+                    </li>
+                </ul>
+                <!--  -->
+                <ul class="middle2">
+                    <li class="make">Make Money with Us</li>
+                    <li>Sell on Grogin</li>
+                    <li>Sell Your Services on Grogin</li>
+                    <li>Sell on Grogin Business</li>
+                    <li>Sell Your Apps on Grogin</li>
+                    <li>Become an Affilate</li>
+                    <li>Advertise Your Products</li>
+                    <li>Sell-Publish with Us</li>
+                    <li>Become an Blowwe Vendor</li>
+                </ul>
+                <ul class="middle3">
+                    <li class="let">Let Us Help You</li>
+                    <li>Accessibility Statement</li>
+                    <li>Your Orders</li>
+                    <li>Returns & Replacements</li>
+                    <li>Shipping Rates & Policies</li>
+                    <li>Refund and Returns Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Cookie Settings</li>
+                    <li>Help Center</li>
+                </ul>
+                <ul class="middle4">
+                    <li class="get">Get to Know Us</li>
+                    <li>Careers for Grogin</li>
+                    <li>About Grogin</li>
+                    <li>Inverstor Relations</li>
+                    <li>Customer reviews</li>
+                    <li>Social Responsibility</li>
+                    <li>Store Locations</li>
+                </ul>
+                <ul class="middle5">
+                    <li class="download">Download our app</li>
+                    <li class="gooleplay" >
+                        <img src="image/playstore.png" alt="image">
+                        <span>Download App Get-10% Discount</span>
+                    </li>
+                    <li class="applestore">
+                        <img src="image/apple.png" alt="image">
+                        <span>Download App Get
+                            -20% Discount</span>
+                    </li>
+                    <li class="follow">Follow us on social media:</li>
+                    <li>
+                        <img src="/image/facebook.svg" alt="image">
+                        <img src="/image/wtitter.svg" alt="image">
+                        <img src="/image/insta.svg" alt="image">
+                        <img src="image/linkid.svg" alt="image">
+                    </li>
+                </ul>
+            </div>
+            <div class="line"> </div>
+            <!--  -->   
+            <div class="footer-botttom">
+                <div class="bottom-left">
+                    <h6>Copyright 2024 © Grogin WooCommerce WordPress Theme. All right reserved. Powered by <span style="color: #634C9F;">KLBTheme.</span></h6>
+                    <div class="pay">
+                        <img src="/image/visa.png" alt="image">
+                        <img src="/image/master.png" alt="image">
+                        <img src="/image/paypal.png" alt="image">
+                        <img src="/image/strill.png" alt="image">
+                        <img src="/image/kralla.png" alt="image">
+                    </div>
+                </div>
+                <div class="bottom-right">
+                    <h6>Terms and Conditions</h6>
+                    <h6>Privacy Policy</h6>
+                    <h6>Order Tracking</h6>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <script src="script.js"></script>
 </body>
-</html>
+
+
+
