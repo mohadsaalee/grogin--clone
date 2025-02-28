@@ -1411,7 +1411,7 @@ margin-bottom: 5px;
     font-size: 12px;
   }
   #navbar .navbar2 .navbar2-left h5 {
-    font-size: 12px;
+    font-size: 7px;
   }
   #navbar .navbar2 .navbar2-left p{
     font-size: 12px;
@@ -1535,7 +1535,7 @@ margin-bottom: 5px;
     /* flex-direction: column-reverse; */
     display: flex;
     flex-wrap: wrap;
-    gap: 3px;
+    gap: 5px;
   }
   #footer .footer-botttom{
     flex-direction: column;
@@ -1543,6 +1543,12 @@ margin-bottom: 5px;
   #navbar .navbar3 .nav3-left .logo .logo-img img {
     width: 82px;
     height: 25px;
+  }
+  #navbar .navbar1 .navbar1-right .nm {
+    font-size: 5px;
+  }
+  #navbar .navbar1 .navbar1-left p {
+    font-size: 6px;
   }
   #navbar .navbar3 .navbar3-right ul li small{
     font-size: 8px;
@@ -1554,6 +1560,85 @@ margin-bottom: 5px;
     display: none;
   }
   #navbar .navbar2 .navbar2-left p {
-    font-size: 12px;
+    font-size: 6px;
   }
+  #navbar .navbar4 .nav4-right ul li a {
+    font-size: 8px;
+  }
+  #navbar .navbar4 .nav4-left ul li {
+    font-size: 7px;
+  }
+  #navbar .navbar2 .navbar2-right h5 {
+    font-size: 7px;
+  }
+  #navbar .navbar2 .navbar2-left span {
+    font-size: 8px;
+  }
+  #spotlight .spotlight-main .spotlight-right .bantage .bantage2 h6 {
+    font-size: 8px;
+  }
+  #navbar .navbar4 .nav4-right ul img {
+    width: 6px;
+  }
+  #navbar .navbar4 .nav4-right ul li span {
+    font-weight: 500;
+    font-size: 11px;
+    padding: 3px;
+  }
+  #navbar .navbar4 .nav4-left ul li .line3{
+    display: none;
+  }
+  #navbar .navbar4 {
+    height: 26px;
+  }
+  #spotlight .spotlight-main .spotlight-right .bantage .bantage1 h6 {
+    font-size: 8px;
+  }
+  #spotlight .spotlight-main .spotlight-right .banner .banner-text .grocery h4{
+    font-size: 12px;
+    margin-bottom: 35px;
+  }
+  #spotlight .spotlight-main .spotlight-right .banner .banner-text span{
+    font-size: 8px;
+    margin-bottom: -22px;
+  }
+  #spotlight .spotlight-main .spotlight-right .banner .banner-text {
+    margin-top: -59px;
+    margin-left: 35px;
+  }
+  #spotlight .spotlight-main .spotlight-right .banner .banner-text .shop-Now {
+    font-size: 11px;
+    width: 70px;
+    /* padding: 5px; */
+    /* margin: 5px; */
+  }
+  #spotlight .spotlight-main .spotlight-right .search-bar .search2 .sort span{
+    font-size: 8px;
+  }
+  #spotlight .spotlight-main .spotlight-right .search-bar .search2 .show span {
+  font-size: 8px;
+  }
+  #spotlight .spotlight-main .spotlight-right .search-bar .search2 .show h6 {
+  font-size: 8px;
+  }
+  #spotlight .spotlight-main .spotlight-right .search-bar .search2 .sqr-1 img {
+    width: 23px;
+    height: 20px;
+  }
+  #spotlight .spotlight-main .spotlight-right .search-bar .search2 .sqr-2 img {
+    width: 17px;
+    height: 19px;
+  }
+  #spotlight .spotlight-main .spotlight-right .search-bar .search1 input{
+    font-size: 10px;
+  }
+}
+@media(max-width : 480px){
+  #navbar .navbar4 .nav4-left ul li {
+    font-size: 5px;
+  }
+  #navbar .navbar1 .navbar1-right .nm{
+    display: none;
+  }
+
 }
